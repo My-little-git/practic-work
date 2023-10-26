@@ -8,3 +8,12 @@
 4. Удаление файла и удаление дириктории - __rm__ и __rmdir__ соответственно
 
 Более конкретную информацию можно найти на [сайте](https://git-scm.com "Сайт Git") Git
+
+```mermaid
+graph LR;
+untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
